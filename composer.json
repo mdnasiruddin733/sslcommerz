@@ -1,0 +1,31 @@
+{
+    "name": "webpane/sslcommerz",
+    "description": "This package adds sslcommerz payment gateway to your app. It will provide you all necessary functionality for payment.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Webpane\\SSLcommerz\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Nasir",
+            "email": "nasir.developer.bd@gmail.com"
+        }
+    ],
+    "require": {},
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.x-dev"
+        },
+        "laravel": {
+            "providers": [
+                "Webpane\\SSLcommerz\\SSLcommerzServiceProvider"
+            ],
+            "aliases": {
+                "SSLcommerz":"Webpane\\SSLcommerz\\Facades\\SSLcommerz"
+            }
+        }
+    }
+}
