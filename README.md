@@ -1,5 +1,5 @@
 
-[<img src="public/img/palestine.png" />](https://supportukrainenow.org)
+[<img src="public/img/palestine.png" />](https://www.palestinecampaign.org/)
 
 
 
