@@ -1,8 +1,8 @@
 <?php
 
 return [
-    "store_id"=>"nasir60b7103bcd861",
-    "store_passwd"=>"nasir60b7103bcd861@ssl",
+    "store_id"=>"",
+    "store_passwd"=>"",
     "success_url"=>"/success",
     "fail_url"=>"/fail",
     "cancel_url"=>"/cancel",
